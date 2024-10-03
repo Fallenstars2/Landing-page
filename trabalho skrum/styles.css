@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body,
+html {
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    margin-top: 30px;
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.btn {
+    display: block;
+    font-size: 30px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+    border-top: 2px solid #910472;
+    border-bottom: 2px solid #910472;
+    padding: 10px;
+    letter-spacing: 2px;
+    transition: all .25s;
+    text-align: center;
+    margin-left: 1rem;
+}
+
+
+.buttons-top {
+    display: flex;
+    margin-bottom: 230px;
+
+
+}
+
+.btn:hover {
+    letter-spacing: 5px;
+    box-shadow: 10px 5px 5px red;
+}
+
+.btn-secondary {
+    background-color: #2196f3;
+}
+
+.btn-secondary:hover {
+    background-color: #1976d2;
+}
+
+.btn-macaco:hover {
+    letter-spacing: 4px;
+    box-shadow: 10px 5px 5px red;
+}
+
+.text {
+
+    color: white;
+    text-shadow: 2px 2px 2px rgb(255, 0, 43);
+    
+}
+
+.macaco {
+    display: flex;
+    flex-direction: row;
+    margin-left: 600px;
+}
+
+.btn-macaco {
+    display: block;
+    font-size: 25px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+    border-top: 2px solid #270992;
+    border-bottom: 2px solid #270992;
+    padding: 10px;
+    letter-spacing: 2px;
+    transition: all .25s;
+    text-align: center;
+    margin-left: 1rem;
+}
